@@ -7,3 +7,5 @@
 
 import Foundation
 let TO_LOGIN = "toLogin"
+let TO_ACCOUNT = "toAccount"
+let UNWIND = "unwindToChannal"

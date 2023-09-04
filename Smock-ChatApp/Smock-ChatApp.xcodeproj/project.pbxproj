@@ -18,6 +18,7 @@
 		52E130022AA60A6200F8764D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E130012AA60A6200F8764D /* GradientView.swift */; };
 		52E130052AA6312C00F8764D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E130042AA6312C00F8764D /* Constants.swift */; };
 		52E130072AA6379C00F8764D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E130062AA6379C00F8764D /* LoginVC.swift */; };
+		52E130092AA6404900F8764D /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E130082AA6404900F8764D /* AccountVC.swift */; };
 		9418251CC3DBEBD7995AF9EE /* Pods_Smock_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67755167B303144CA7E3F988 /* Pods_Smock_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		52E130012AA60A6200F8764D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		52E130042AA6312C00F8764D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		52E130062AA6379C00F8764D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		52E130082AA6404900F8764D /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		67755167B303144CA7E3F988 /* Pods_Smock_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smock_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEC07BEA53D8CA0097B814F /* Pods-Smock-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smock-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-Smock-ChatApp/Pods-Smock-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				52E12FFD2AA5C03C00F8764D /* ChatVC.swift */,
 				52E12FFF2AA5C04F00F8764D /* ChannelVC.swift */,
 				52E130062AA6379C00F8764D /* LoginVC.swift */,
+				52E130082AA6404900F8764D /* AccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				52E130052AA6312C00F8764D /* Constants.swift in Sources */,
 				52E12FF92AA5BBB400F8764D /* SWRevealViewController.m in Sources */,
 				52E130002AA5C04F00F8764D /* ChannelVC.swift in Sources */,
+				52E130092AA6404900F8764D /* AccountVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
