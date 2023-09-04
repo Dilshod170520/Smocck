@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ChannelVC.swift
 //  Smock-ChatApp
 //
 //  Created by MacBook Pro on 04/09/23.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ChannelVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60 
     }
 
-
 }
-
