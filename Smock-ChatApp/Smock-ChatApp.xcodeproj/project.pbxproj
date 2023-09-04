@@ -16,6 +16,8 @@
 		52E12FFE2AA5C03C00F8764D /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E12FFD2AA5C03C00F8764D /* ChatVC.swift */; };
 		52E130002AA5C04F00F8764D /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E12FFF2AA5C04F00F8764D /* ChannelVC.swift */; };
 		52E130022AA60A6200F8764D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E130012AA60A6200F8764D /* GradientView.swift */; };
+		52E130052AA6312C00F8764D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E130042AA6312C00F8764D /* Constants.swift */; };
+		52E130072AA6379C00F8764D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E130062AA6379C00F8764D /* LoginVC.swift */; };
 		9418251CC3DBEBD7995AF9EE /* Pods_Smock_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67755167B303144CA7E3F988 /* Pods_Smock_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		52E12FFD2AA5C03C00F8764D /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		52E12FFF2AA5C04F00F8764D /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		52E130012AA60A6200F8764D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		52E130042AA6312C00F8764D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52E130062AA6379C00F8764D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		67755167B303144CA7E3F988 /* Pods_Smock_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smock_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEC07BEA53D8CA0097B814F /* Pods-Smock-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smock-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-Smock-ChatApp/Pods-Smock-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +83,7 @@
 		52E12FE02AA5B24600F8764D /* Smock-ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				52E130032AA6310900F8764D /* Utillities */,
 				52E12FFC2AA5C01700F8764D /* Model */,
 				52E12FFB2AA5C01200F8764D /* View */,
 				52E12FFA2AA5C00A00F8764D /* Controller */,
@@ -108,6 +113,7 @@
 			children = (
 				52E12FFD2AA5C03C00F8764D /* ChatVC.swift */,
 				52E12FFF2AA5C04F00F8764D /* ChannelVC.swift */,
+				52E130062AA6379C00F8764D /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		52E130032AA6310900F8764D /* Utillities */ = {
+			isa = PBXGroup;
+			children = (
+				52E130042AA6312C00F8764D /* Constants.swift */,
+			);
+			path = Utillities;
 			sourceTree = "<group>";
 		};
 		E88CE396EFC9070D23880AB6 /* Pods */ = {
@@ -254,8 +268,10 @@
 			files = (
 				52E12FFE2AA5C03C00F8764D /* ChatVC.swift in Sources */,
 				52E12FE22AA5B24600F8764D /* AppDelegate.swift in Sources */,
+				52E130072AA6379C00F8764D /* LoginVC.swift in Sources */,
 				52E130022AA60A6200F8764D /* GradientView.swift in Sources */,
 				52E12FE42AA5B24600F8764D /* SceneDelegate.swift in Sources */,
+				52E130052AA6312C00F8764D /* Constants.swift in Sources */,
 				52E12FF92AA5BBB400F8764D /* SWRevealViewController.m in Sources */,
 				52E130002AA5C04F00F8764D /* ChannelVC.swift in Sources */,
 			);
